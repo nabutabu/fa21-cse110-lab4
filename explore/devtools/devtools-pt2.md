@@ -1,0 +1,2 @@
+1. The bug is that num1 and num2 are strings when they are being sent to calculateSum therefore String addition (or concatenation) is taking place instead of regular addition.
+2. I would use the parseInt(*int*) function for JavaScript to get the integer values of the Strings and then add them in order to get the correct values.
